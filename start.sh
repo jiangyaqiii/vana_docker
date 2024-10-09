@@ -127,3 +127,5 @@ python -m chatgpt.nodes.validator
 '
 echo "DLP Validator 容器已启动并在后台运行。"
 echo "要进入容器，请使用命令: docker exec -it dlp-validator-container /bin/bash"
+cd ~
+rm -f start.sh
