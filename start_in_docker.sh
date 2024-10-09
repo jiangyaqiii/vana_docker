@@ -2,8 +2,8 @@
 # DLP Validator 安装路径
 DLP_PATH="/root/vana-dlp-chatgpt"
 
-apt update && apt upgrade -y
-apt install -y curl wget jq make gcc nano git software-properties-common
+# apt update && apt upgrade -y
+# apt install -y curl wget jq make gcc nano git software-properties-common
 add-apt-repository ppa:deadsnakes/ppa -y
 apt update
 apt install -y python3.11 python3.11-venv python3.11-dev python3-pip
