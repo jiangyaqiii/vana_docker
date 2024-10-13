@@ -23,11 +23,7 @@ echo "公钥已成功写入到 .env 文件中。"
 
 # 部署智能合约
 cd $HOME
-git clone https://github.com/Josephtran102/vana-dlp-smart-contracts
 cd vana-dlp-smart-contracts
-npm install -g yarn
-yarn install
-cp .env.example .env
 nano .env  # 手动编辑 .env 文件
 npx hardhat deploy --network moksha --tags DLPDeploy
 
