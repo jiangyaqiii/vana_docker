@@ -1,3 +1,5 @@
+cd vana-dlp-chatgpt
+source myenv/bin/activate
 # 生成加密密钥
 ./keygen.sh
 
